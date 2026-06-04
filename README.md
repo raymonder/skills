@@ -1,7 +1,9 @@
 # Skills
 
-> 一组从真实工作里长出来的 AI agent skills。  
-> 它们不是某一个工具的专属附件，而是一批可以被 Codex、Claude Code，或其他理解 `SKILL.md` 的 agent 复用和改造的工作方法。
+> 这些 skills，是我在真实工作里一点点攒出来的。
+> 有的用来准备客户会面，有的用来写方案，有的用来把环境先接好；说到底，都是把踩过的坑、改过的稿、临场做过的判断，整理成下次还能继续用的方法。
+>
+> 不必太在意它们属于哪一个工具。只要你的 agent 能读 `SKILL.md`，就可以拿去试、拆开改，接进自己的流程里。
 
 ## 背景
 
@@ -33,19 +35,13 @@ git clone <skill-repo-url>
 
 ## 当前 Skills
 
-| Skill | 适合什么场景下用 | 具体解决什么问题 | 当前版本 | 仓库 / 安装 |
-|---|---|---|---:|---|
-| `hk-fundraising-campaign-advisor` | 设计或 review 香港 NGO、学校、基金会、慈善机构的线上捐款页、月捐项目、卖旗日或 e-Flag Day 活动。 | 把零散的筹款想法整理成有目标、有证据、有优先级的执行方案；避免凭感觉写筹款建议，也避免编造转化率、分享率、留存率或 uplift。 | `0.9` | [GitHub](https://github.com/raymonder/hk-fundraising-campaign-advisor)<br><br>`git clone https://github.com/raymonder/hk-fundraising-campaign-advisor.git` |
-| `ngo-client-brief` | 首次拜访 NGO、协会、慈善机构、学校或社会服务机构前，需要快速生成一份聚焦业务切入点的会前简报。 | 避免客户背景研究写成百科式资料堆砌；把年报、财务、服务点、官网、筹款入口和数字化痕迹压缩成「这家机构为什么值得聊、该从哪里切、哪些数字能变成问题」的会议判断。 | `0.9` | [GitHub](https://github.com/raymonder/ngo-client-brief)<br><br>`git clone https://github.com/raymonder/ngo-client-brief.git` |
-| `scenario-product-spec` | 投标技术方案、产品方案、需求理解、解决方案设计、PRD 或 RFP 回复，需要把需求矩阵扩写成端到端叙事。 | 很多方案不是没有功能，而是写得像清单。这个 skill 解决「评审知道你有功能，但感受不到你真的懂业务」的问题。 | `0.9` | [GitHub](https://github.com/raymonder/scenario-product-spec)<br><br>`git clone https://github.com/raymonder/scenario-product-spec.git` |
-| `feishu-setup` | agent 需要接入飞书 / Lark，准备读写文档、Wiki、表格、Base、IM、日历或邮件之前，先把认证和权限跑通。 | 飞书 API 真正麻烦的地方常常不是调用，而是 App ID / Secret、scope、user vs bot、device flow、permission denied。这个 skill 只负责把门打开。 | `0.9` | [GitHub](https://github.com/raymonder/feishu-setup)<br><br>`git clone https://github.com/raymonder/feishu-setup.git` |
-| `weekly-ai-and-me-reflection` | 每周或按需回顾人与 AI 的协作记录，想知道这周做了什么、哪里顺、哪里返工、下周双方怎么配合得更好。 | 避免凭感觉评价 AI 协作质量；用真实纠错、返工、采纳和重复问题作为证据，不编造批评，也不写商业互吹。 | `0.9` | [GitHub](https://github.com/raymonder/weekly-ai-and-me-reflection)<br><br>`git clone https://github.com/raymonder/weekly-ai-and-me-reflection.git` |
-
-## 版本说明
-
-当前所有 skill 从 `0.9` 开始。
-
-这个版本号的含义是：已经能在实际工作中使用，但还保留继续打磨的空间。后续如果某个 skill 的结构、触发条件、输出模板或引用资料发生明显变化，可以单独升级它的版本。
+| Skill | 适合什么场景下用 | 具体解决什么问题 | 仓库 |
+|---|---|---|---|
+| `hk-fundraising-campaign-advisor` | 设计或 review 香港 NGO、学校、基金会、慈善机构的线上捐款页、月捐项目、卖旗日或 e-Flag Day 活动。 | 把零散的筹款想法整理成有目标、有证据、有优先级的执行方案；避免凭感觉写筹款建议，也避免编造转化率、分享率、留存率或 uplift。 | [github.com/raymonder/hk-fundraising-campaign-advisor](https://github.com/raymonder/hk-fundraising-campaign-advisor) |
+| `ngo-client-brief` | 首次拜访 NGO、协会、慈善机构、学校或社会服务机构前，需要快速生成一份聚焦业务切入点的会前简报。 | 避免客户背景研究写成百科式资料堆砌；把年报、财务、服务点、官网、筹款入口和数字化痕迹压缩成「这家机构为什么值得聊、该从哪里切、哪些数字能变成问题」的会议判断。 | [github.com/raymonder/ngo-client-brief](https://github.com/raymonder/ngo-client-brief) |
+| `scenario-product-spec` | 投标技术方案、产品方案、需求理解、解决方案设计、PRD 或 RFP 回复，需要把需求矩阵扩写成端到端叙事。 | 很多方案不是没有功能，而是写得像清单。这个 skill 解决「评审知道你有功能，但感受不到你真的懂业务」的问题。 | [github.com/raymonder/scenario-product-spec](https://github.com/raymonder/scenario-product-spec) |
+| `feishu-setup` | agent 需要接入飞书 / Lark，准备读写文档、Wiki、表格、Base、IM、日历或邮件之前，先把认证和权限跑通。 | 飞书 API 真正麻烦的地方常常不是调用，而是 App ID / Secret、scope、user vs bot、device flow、permission denied。这个 skill 只负责把门打开。 | [github.com/raymonder/feishu-setup](https://github.com/raymonder/feishu-setup) |
+| `weekly-ai-and-me-reflection` | 每周或按需回顾人与 AI 的协作记录，想知道这周做了什么、哪里顺、哪里返工、下周双方怎么配合得更好。 | 避免凭感觉评价 AI 协作质量；用真实纠错、返工、采纳和重复问题作为证据，不编造批评，也不写商业互吹。 | [github.com/raymonder/weekly-ai-and-me-reflection](https://github.com/raymonder/weekly-ai-and-me-reflection) |
 
 ## 使用和改造建议
 
@@ -55,8 +51,6 @@ git clone <skill-repo-url>
 - 真正反复使用后，再把你自己的修订沉淀成新版本。
 
 ## 煮酒论英雄
-
-下面这一段，取自《三国演义》第二十一回「曹操煮酒论英雄 关公赚城斩车胄」中青梅煮酒的部分，从「使君知龙之变化否」开始。
 
 > 操曰：“使君知龙之变化否？”玄德曰：“未知其详。”操曰：“龙能大能小，能升能隐；大则兴云吐雾，小则隐介藏形；升则飞腾于宇宙之间，隐则潜伏于波涛之内。方今春深，龙乘时变化，犹人得志而纵横四海。龙之为物，可比世之英雄。玄德久历四方，必知当世英雄。请试指言之。”
 >
