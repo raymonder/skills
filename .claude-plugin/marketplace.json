@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "raymonder-skills",
+  "owner": {
+    "name": "Raymond",
+    "email": "raymondhou4ai@gmail.com"
+  },
+  "description": "Raymond 的个人 skill 集合：投标方案、NGO 会前简报、香港筹款、场景化产品方案、飞书图表、会议纪要、每周复盘等。",
+  "plugins": [
+    {
+      "name": "raymonder-skills",
+      "source": "./raymonder-skills",
+      "description": "Raymond 的全部个人 skill 打成一个插件（含 8 个 skill）。",
+      "author": { "name": "Raymond" },
+      "keywords": ["tender", "ngo", "fundraising", "feishu", "productivity", "chinese"]
+    }
+  ]
+}

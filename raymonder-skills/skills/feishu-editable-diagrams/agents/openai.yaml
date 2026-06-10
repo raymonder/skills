@@ -1,0 +1,4 @@
+interface:
+  display_name: "Feishu Editable Diagrams"
+  short_description: "Create editable SVG diagrams for Feishu/Lark."
+  default_prompt: "Use $feishu-editable-diagrams to create an editable Feishu/Lark whiteboard diagram from my description."
