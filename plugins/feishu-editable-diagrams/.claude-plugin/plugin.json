@@ -1,0 +1,6 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "feishu-editable-diagrams",
+  "description": "在飞书 / Lark 文档或白板中创建、转换、插入、更新可编辑的 SVG 图（流程图 / 架构图 / 关系图），让方框、文字、箭头保持可编辑而非静态图片。",
+  "author": { "name": "Raymond" }
+}

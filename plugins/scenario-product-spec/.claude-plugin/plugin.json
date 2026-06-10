@@ -1,0 +1,6 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "scenario-product-spec",
+  "description": "把干巴巴的功能需求改写成「谁在什么场景下、满足什么条件、系统如何响应、为何这样设计」的场景化业务叙事，适用于产品 / 技术方案、PRD、RFP 回复。",
+  "author": { "name": "Raymond" }
+}

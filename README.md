@@ -37,14 +37,14 @@ git clone <skill-repo-url>
 
 | Skill | 适合什么场景下用 | 具体解决什么问题 | 仓库 |
 |---|---|---|---|
-| `hk-fundraising-campaign-advisor` | 设计或 review 香港 NGO、学校、基金会、慈善机构的线上捐款页、月捐项目、卖旗日或 e-Flag Day 活动。 | 把零散的筹款想法整理成有目标、有证据、有优先级的执行方案；避免凭感觉写筹款建议，也避免编造转化率、分享率、留存率或 uplift。 | [查看](https://github.com/raymonder/skills/tree/main/raymonder-skills/skills/hk-fundraising-campaign-advisor) |
-| `ngo-client-brief` | 首次拜访 NGO、协会、慈善机构、学校或社会服务机构前，需要快速生成一份聚焦业务切入点的会前简报。 | 避免客户背景研究写成百科式资料堆砌；把年报、财务、服务点、官网、筹款入口和数字化痕迹压缩成「这家机构为什么值得聊、该从哪里切、哪些数字能变成问题」的会议判断。 | [查看](https://github.com/raymonder/skills/tree/main/raymonder-skills/skills/ngo-client-brief) |
-| `scenario-product-spec` | 投标技术方案、产品方案、需求理解、解决方案设计、PRD 或 RFP 回复，需要把需求矩阵扩写成端到端叙事。 | 很多方案不是没有功能，而是写得像清单。这个 skill 解决「评审知道你有功能，但感受不到你真的懂业务」的问题。 | [查看](https://github.com/raymonder/skills/tree/main/raymonder-skills/skills/scenario-product-spec) |
-| `tender-proposal-writing` | 写投标书、RFP 回复、技术标、服务方案、实施方案或投标章节时，需要把招标文件、评分标准、需求矩阵和公司资料整理成正式方案。 | 解决标书内容散、回标不清、优势像口号、承诺边界不稳的问题；把材料组织成「理解需求、逐条响应、实施落地、风险控制、优势证明」的投标文本。 | [查看](https://github.com/raymonder/skills/tree/main/raymonder-skills/skills/tender-proposal-writing) |
-| `feishu-setup` | agent 需要接入飞书 / Lark，准备读写文档、Wiki、表格、Base、IM、日历或邮件之前，先把认证和权限跑通。 | 飞书 API 真正麻烦的地方常常不是调用，而是 App ID / Secret、scope、user vs bot、device flow、permission denied。这个 skill 只负责把门打开。 | [查看](https://github.com/raymonder/skills/tree/main/raymonder-skills/skills/feishu-setup) |
-| `feishu-editable-diagrams` | 需要在飞书 / Lark 文档或白板里插入、更新可编辑流程图、架构图、关系图，而不是只上传一张静态图片。 | 把图先做成 Feishu-friendly SVG，再转换成可编辑白板节点；重点解决文字、方框、箭头、容器和占位元素导入后仍能继续编辑的问题。 | [查看](https://github.com/raymonder/skills/tree/main/raymonder-skills/skills/feishu-editable-diagrams) |
-| `weekly-ai-and-me-reflection` | 每周或按需回顾人与 AI 的协作记录，想知道这周做了什么、哪里顺、哪里返工、下周双方怎么配合得更好。 | 避免凭感觉评价 AI 协作质量；用真实纠错、返工、采纳和重复问题作为证据，不编造批评，也不写商业互吹。 | [查看](https://github.com/raymonder/skills/tree/main/raymonder-skills/skills/weekly-ai-and-me-reflection) |
-| `transcript-to-corrected-minutes` | 把录音 / 会议机器转写稿（含粤语·普通话混杂、Plaud、ASR 文本）整理成校正后的纪要式文本。 | 解决机器转写脏、错词多、术语不准的问题；输出可读的校正纪要，并把存疑术语显式标出。 | [查看](https://github.com/raymonder/skills/tree/main/raymonder-skills/skills/transcript-to-corrected-minutes) |
+| `hk-fundraising-campaign-advisor` | 设计或 review 香港 NGO、学校、基金会、慈善机构的线上捐款页、月捐项目、卖旗日或 e-Flag Day 活动。 | 把零散的筹款想法整理成有目标、有证据、有优先级的执行方案；避免凭感觉写筹款建议，也避免编造转化率、分享率、留存率或 uplift。 | [查看](https://github.com/raymonder/skills/tree/main/plugins/hk-fundraising-campaign-advisor) |
+| `ngo-client-brief` | 首次拜访 NGO、协会、慈善机构、学校或社会服务机构前，需要快速生成一份聚焦业务切入点的会前简报。 | 避免客户背景研究写成百科式资料堆砌；把年报、财务、服务点、官网、筹款入口和数字化痕迹压缩成「这家机构为什么值得聊、该从哪里切、哪些数字能变成问题」的会议判断。 | [查看](https://github.com/raymonder/skills/tree/main/plugins/ngo-client-brief) |
+| `scenario-product-spec` | 投标技术方案、产品方案、需求理解、解决方案设计、PRD 或 RFP 回复，需要把需求矩阵扩写成端到端叙事。 | 很多方案不是没有功能，而是写得像清单。这个 skill 解决「评审知道你有功能，但感受不到你真的懂业务」的问题。 | [查看](https://github.com/raymonder/skills/tree/main/plugins/scenario-product-spec) |
+| `tender-proposal-writing` | 写投标书、RFP 回复、技术标、服务方案、实施方案或投标章节时，需要把招标文件、评分标准、需求矩阵和公司资料整理成正式方案。 | 解决标书内容散、回标不清、优势像口号、承诺边界不稳的问题；把材料组织成「理解需求、逐条响应、实施落地、风险控制、优势证明」的投标文本。 | [查看](https://github.com/raymonder/skills/tree/main/plugins/tender-proposal-writing) |
+| `feishu-setup` | agent 需要接入飞书 / Lark，准备读写文档、Wiki、表格、Base、IM、日历或邮件之前，先把认证和权限跑通。 | 飞书 API 真正麻烦的地方常常不是调用，而是 App ID / Secret、scope、user vs bot、device flow、permission denied。这个 skill 只负责把门打开。 | [查看](https://github.com/raymonder/skills/tree/main/plugins/feishu-setup) |
+| `feishu-editable-diagrams` | 需要在飞书 / Lark 文档或白板里插入、更新可编辑流程图、架构图、关系图，而不是只上传一张静态图片。 | 把图先做成 Feishu-friendly SVG，再转换成可编辑白板节点；重点解决文字、方框、箭头、容器和占位元素导入后仍能继续编辑的问题。 | [查看](https://github.com/raymonder/skills/tree/main/plugins/feishu-editable-diagrams) |
+| `weekly-ai-and-me-reflection` | 每周或按需回顾人与 AI 的协作记录，想知道这周做了什么、哪里顺、哪里返工、下周双方怎么配合得更好。 | 避免凭感觉评价 AI 协作质量；用真实纠错、返工、采纳和重复问题作为证据，不编造批评，也不写商业互吹。 | [查看](https://github.com/raymonder/skills/tree/main/plugins/weekly-ai-and-me-reflection) |
+| `transcript-to-corrected-minutes` | 把录音 / 会议机器转写稿（含粤语·普通话混杂、Plaud、ASR 文本）整理成校正后的纪要式文本。 | 解决机器转写脏、错词多、术语不准的问题；输出可读的校正纪要，并把存疑术语显式标出。 | [查看](https://github.com/raymonder/skills/tree/main/plugins/transcript-to-corrected-minutes) |
 
 ## 使用和改造建议
 

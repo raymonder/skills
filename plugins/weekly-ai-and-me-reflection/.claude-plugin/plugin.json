@@ -1,0 +1,6 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "weekly-ai-and-me-reflection",
+  "description": "按周或按需回顾人与 AI 的协作记录，用真实纠错、返工、采纳作为证据，输出模式观察、双向反馈、改进建议与静态 dashboard。",
+  "author": { "name": "Raymond" }
+}

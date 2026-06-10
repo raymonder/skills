@@ -1,0 +1,6 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "ngo-client-brief",
+  "description": "首次拜访 NGO / 协会 / 慈善机构 / 学校等客户前，按固定模板生成聚焦业务切入点的会前简报。",
+  "author": { "name": "Raymond" }
+}

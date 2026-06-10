@@ -5,14 +5,63 @@
     "name": "Raymond",
     "email": "raymondhou4ai@gmail.com"
   },
-  "description": "Raymond 的个人 skill 集合：投标方案、NGO 会前简报、香港筹款、场景化产品方案、飞书图表、会议纪要、每周复盘等。",
+  "description": "Raymond 在真实工作里攒下的常用 skill，彼此独立，按需单独安装。",
   "plugins": [
     {
-      "name": "raymonder-skills",
-      "source": "./raymonder-skills",
-      "description": "Raymond 的全部个人 skill 打成一个插件（含 8 个 skill）。",
-      "author": { "name": "Raymond" },
-      "keywords": ["tender", "ngo", "fundraising", "feishu", "productivity", "chinese"]
+      "name": "tender-proposal-writing",
+      "source": "./plugins/tender-proposal-writing",
+      "description": "投标 / RFP / RFQ 方案撰写方法论：腔调、逐条回标、各分章写作要求。",
+      "category": "writing",
+      "keywords": ["tender", "rfp", "rfq", "proposal", "bid"]
+    },
+    {
+      "name": "scenario-product-spec",
+      "source": "./plugins/scenario-product-spec",
+      "description": "把干巴巴的功能需求改写成场景化业务叙事（产品 / 技术方案、PRD、RFP 回复）。",
+      "category": "writing",
+      "keywords": ["product", "spec", "prd", "scenario"]
+    },
+    {
+      "name": "ngo-client-brief",
+      "source": "./plugins/ngo-client-brief",
+      "description": "首次拜访 NGO 客户前，生成聚焦业务切入点的会前简报。",
+      "category": "research",
+      "keywords": ["ngo", "brief", "client", "meeting"]
+    },
+    {
+      "name": "hk-fundraising-campaign-advisor",
+      "source": "./plugins/hk-fundraising-campaign-advisor",
+      "description": "设计 / 评审香港 NGO 在线捐款、月捐、卖旗等公众筹款方案，含证据库与评分卡。",
+      "category": "fundraising",
+      "keywords": ["fundraising", "hongkong", "ngo", "donation"]
+    },
+    {
+      "name": "feishu-setup",
+      "source": "./plugins/feishu-setup",
+      "description": "接入飞书 / Lark：安装配置 lark-cli、设置凭证、完成 OAuth 登录与鉴权排错。",
+      "category": "integration",
+      "keywords": ["feishu", "lark", "setup", "oauth"]
+    },
+    {
+      "name": "feishu-editable-diagrams",
+      "source": "./plugins/feishu-editable-diagrams",
+      "description": "在飞书 / Lark 文档或白板插入、更新可编辑的流程图 / 架构图 / 关系图（SVG → 白板）。",
+      "category": "integration",
+      "keywords": ["feishu", "lark", "diagram", "svg", "whiteboard"]
+    },
+    {
+      "name": "transcript-to-corrected-minutes",
+      "source": "./plugins/transcript-to-corrected-minutes",
+      "description": "把机器转写稿（含粤语 / 普通话混杂）整理成校正后的纪要式文本，标出存疑术语。",
+      "category": "writing",
+      "keywords": ["transcript", "minutes", "asr", "meeting"]
+    },
+    {
+      "name": "weekly-ai-and-me-reflection",
+      "source": "./plugins/weekly-ai-and-me-reflection",
+      "description": "回顾人与 AI 的协作记录，输出每周模式、双向反馈与改进建议。",
+      "category": "productivity",
+      "keywords": ["reflection", "weekly", "ai", "review"]
     }
   ]
 }
