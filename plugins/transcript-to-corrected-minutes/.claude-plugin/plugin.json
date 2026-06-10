@@ -1,5 +1,4 @@
 {
-  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
   "name": "transcript-to-corrected-minutes",
   "description": "把机器 / 会议转写稿（含粤语·普通话混杂、Plaud、ASR 文本）整理成校正后的纪要式文本，并把存疑术语显式标出。",
   "author": { "name": "Raymond" }

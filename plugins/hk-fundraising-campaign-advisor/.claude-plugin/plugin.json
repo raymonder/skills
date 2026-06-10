@@ -1,5 +1,4 @@
 {
-  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
   "name": "hk-fundraising-campaign-advisor",
   "description": "设计、评审、打分或改进香港公众筹款（在线捐款、月捐、卖旗 / e-Flag Day），含种子网络机制、文案图片范式与证据支撑的方案。",
   "author": { "name": "Raymond" }

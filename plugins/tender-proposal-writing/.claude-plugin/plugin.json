@@ -1,5 +1,4 @@
 {
-  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
   "name": "tender-proposal-writing",
   "description": "投标 / RFP / RFQ 方案撰写方法论：贯穿全文的腔调与红线、逐条回标需求、口径与数字底座一致性，以及技术 / 商务 / 产品 / 关于我们 / 报价各分章的写作要求。",
   "author": { "name": "Raymond" }

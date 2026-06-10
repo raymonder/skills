@@ -1,11 +1,12 @@
 {
-  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "raymonder-skills",
   "owner": {
     "name": "Raymond",
     "email": "raymondhou4ai@gmail.com"
   },
-  "description": "Raymond 在真实工作里攒下的常用 skill，彼此独立，按需单独安装。",
+  "metadata": {
+    "description": "Raymond 在真实工作里攒下的常用 skill，彼此独立，按需单独安装。"
+  },
   "plugins": [
     {
       "name": "tender-proposal-writing",
