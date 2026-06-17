@@ -8,6 +8,24 @@ description: Use when an agent needs to connect to Feishu/Lark, install or confi
 
 This skill only handles one job: get `lark-cli` installed, configured, authenticated, and verified so later Feishu/Lark work can be handled by the appropriate `lark-*` skill.
 
+## Cowork / Co-work Sandbox Shortcut — Try Control My Mac First
+
+If the current runtime is Cowork / Co-work, or you can infer that the shell is sandboxed and cannot read the host machine's existing configuration, **first try Control My Mac / computer-use to inspect the host Mac's existing `lark-cli` setup**. Do not immediately ask the user for App ID / App Secret or repeat OAuth.
+
+Raymond's host machine may already have the Feishu CY connection configured. Prefer checking from the host Mac terminal or controllable host environment:
+
+```bash
+lark-cli auth status
+lark-cli api GET /open-apis/authen/v1/user_info --as user --jq '.data | {name, open_id}'
+```
+
+Decision rules:
+
+- If a usable `user` login already exists: skip install, credential configuration, and OAuth; hand off to the target `lark-*` skill.
+- If only `bot` is configured or no `user` is logged in: continue with the device-flow OAuth steps below.
+- If Control My Mac / computer-use is unavailable, or the host machine also has no valid setup: fall back to the standard setup workflow below.
+- Do not modify AiMaMi or local proxy configuration for Feishu setup; this skill only handles `lark-cli`.
+
 ## Scope
 
 Use this skill for:
