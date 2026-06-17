@@ -1,6 +1,6 @@
 ---
 name: feishu-setup
-version: "0.9"
+version: "1.0.1"
 description: Use when an agent needs to connect to Feishu/Lark, install or configure lark-cli, set app credentials, complete OAuth device-flow login, verify user or bot authentication, or troubleshoot lark-cli authentication errors before using lark-* skills.
 ---
 
