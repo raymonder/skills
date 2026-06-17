@@ -1,5 +1,8 @@
 {
   "name": "feishu-setup",
+  "version": "1.0.1",
   "description": "为 agent 接入飞书 / Lark：安装配置 lark-cli、设置 App 凭证与 scope、完成 OAuth 设备流登录、验证用户 / bot 鉴权并排错。",
-  "author": { "name": "Raymond" }
+  "author": {
+    "name": "Raymond"
+  }
 }

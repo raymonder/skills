@@ -1,0 +1,4 @@
+interface:
+  display_name: "Transcript 重校稿"
+  short_description: "把机器转写稿整理成可审阅会议文字稿"
+  default_prompt: "Use $transcript-to-corrected-minutes to turn this raw transcript into a corrected meeting transcript with uncertainty notes."
