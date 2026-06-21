@@ -1,0 +1,28 @@
+{
+  "name": "transcript-to-corrected-minutes",
+  "version": "1.0.0",
+  "description": "把机器 / 会议转写稿（含粤语·普通话混杂、Plaud、ASR 文本）整理成校正后的纪要式文本，并把存疑术语显式标出。",
+  "skills": "./skills/",
+  "author": {
+    "name": "Raymond"
+  },
+  "keywords": [
+    "transcript",
+    "minutes",
+    "asr",
+    "meeting"
+  ],
+  "interface": {
+    "displayName": "Transcript To Corrected Minutes",
+    "shortDescription": "把机器转写稿（含粤语 / 普通话混杂）整理成校正后的纪要式文本，标出存疑术语。",
+    "longDescription": "把机器 / 会议转写稿（含粤语·普通话混杂、Plaud、ASR 文本）整理成校正后的纪要式文本，并把存疑术语显式标出。",
+    "developerName": "Raymond",
+    "category": "Writing",
+    "capabilities": [
+      "Skills"
+    ],
+    "defaultPrompt": [
+      "使用 Transcript To Corrected Minutes skill 帮我处理一个相关任务。"
+    ]
+  }
+}

@@ -1,18 +1,35 @@
 ---
 name: feishu-setup
-version: "1.0.1"
-description: Use when an agent needs to connect to Feishu/Lark, install or configure lark-cli, set app credentials, complete OAuth device-flow login, verify user or bot authentication, or troubleshoot lark-cli authentication errors before using lark-* skills.
+description: Use when an agent needs to connect to Feishu/Lark, especially from Cowork/Claude Code/Codex sandbox runtimes; before Browser or OAuth, prefer Control My Mac/computer-use to inspect the host Mac lark-cli setup, then install/configure lark-cli, set app credentials, complete OAuth device-flow login, verify user or bot authentication, or troubleshoot lark-cli errors before using lark-* skills.
 ---
 
 # Feishu / Lark Setup
 
 This skill only handles one job: get `lark-cli` installed, configured, authenticated, and verified so later Feishu/Lark work can be handled by the appropriate `lark-*` skill.
 
-## Cowork / Co-work Sandbox Shortcut — Try Control My Mac First
+## Non-Negotiable Runtime Rule — Host Mac Before Browser
 
-If the current runtime is Cowork / Co-work, or you can infer that the shell is sandboxed and cannot read the host machine's existing configuration, **first try Control My Mac / computer-use to inspect the host Mac's existing `lark-cli` setup**. Do not immediately ask the user for App ID / App Secret or repeat OAuth.
+When the runtime might be a Cowork / Co-work / Claude Code / Codex desktop co-worker, or any sandbox whose shell may not share the host Mac's home directory, **the first setup action MUST be to inspect the host Mac with Control My Mac / computer-use**.
 
-Raymond's host machine may already have the Feishu CY connection configured. Prefer checking from the host Mac terminal or controllable host environment:
+Do not use Browser, Playwright, Chrome, Feishu web UI, or the developer console as the first attempt to solve setup/authentication. Browser-based checks are only a fallback for reading documentation or changing app scopes after `lark-cli` host checks fail or prove incomplete.
+
+Treat these signals as sandbox indicators and trigger Control My Mac / computer-use immediately:
+
+- `lark-cli` is missing in the agent shell, but the user says it was already configured on this Mac.
+- `lark-cli auth status` in the agent shell says not configured / no user, but the user expected an existing login.
+- The current context mentions Cowork, Co-work, Claude Code, Codex, sandbox, co-worker, AiMaMi, or host Mac.
+- The shell home/config path looks temporary, containerized, or different from the user's normal Mac environment.
+
+Tool routing:
+
+| Runtime | Preferred first action | Do not do first |
+| --- | --- | --- |
+| Claude Code / Cowork with Control My Mac | Use Control My Mac to run the host Terminal commands below | Open Browser or ask for credentials |
+| Codex desktop | Use `computer-use` / Control local Mac; if hidden, search for a computer-use tool, then run host Terminal commands | Use in-app Browser / Playwright |
+| Direct unsandboxed terminal on the host Mac | Run the commands directly in that terminal | Re-run OAuth before checking status |
+| No host-control tool available | Say host control is unavailable, then fall back to the standard setup workflow | Pretend the sandbox result proves the host is unconfigured |
+
+Host Terminal probe commands:
 
 ```bash
 lark-cli auth status
@@ -22,7 +39,7 @@ lark-cli api GET /open-apis/authen/v1/user_info --as user --jq '.data | {name, o
 Decision rules:
 
 - If a usable `user` login already exists: skip install, credential configuration, and OAuth; hand off to the target `lark-*` skill.
-- If only `bot` is configured or no `user` is logged in: continue with the device-flow OAuth steps below.
+- If only `bot` is configured or no `user` is logged in on the host Mac: continue with the device-flow OAuth steps below.
 - If Control My Mac / computer-use is unavailable, or the host machine also has no valid setup: fall back to the standard setup workflow below.
 - Do not modify AiMaMi or local proxy configuration for Feishu setup; this skill only handles `lark-cli`.
 

@@ -1,0 +1,28 @@
+{
+  "name": "ngo-client-brief",
+  "version": "1.0.0",
+  "description": "首次拜访 NGO / 协会 / 慈善机构 / 学校等客户前，按固定模板生成聚焦业务切入点的会前简报。",
+  "skills": "./skills/",
+  "author": {
+    "name": "Raymond"
+  },
+  "keywords": [
+    "ngo",
+    "brief",
+    "client",
+    "meeting"
+  ],
+  "interface": {
+    "displayName": "Ngo Client Brief",
+    "shortDescription": "首次拜访 NGO 客户前，生成聚焦业务切入点的会前简报。",
+    "longDescription": "首次拜访 NGO / 协会 / 慈善机构 / 学校等客户前，按固定模板生成聚焦业务切入点的会前简报。",
+    "developerName": "Raymond",
+    "category": "Research",
+    "capabilities": [
+      "Skills"
+    ],
+    "defaultPrompt": [
+      "使用 Ngo Client Brief skill 帮我处理一个相关任务。"
+    ]
+  }
+}

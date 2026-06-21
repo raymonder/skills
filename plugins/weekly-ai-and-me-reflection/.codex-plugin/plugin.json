@@ -1,0 +1,28 @@
+{
+  "name": "weekly-ai-and-me-reflection",
+  "version": "1.0.0",
+  "description": "按周或按需回顾人与 AI 的协作记录，用真实纠错、返工、采纳作为证据，输出模式观察、双向反馈、改进建议与静态 dashboard。",
+  "skills": "./skills/",
+  "author": {
+    "name": "Raymond"
+  },
+  "keywords": [
+    "reflection",
+    "weekly",
+    "ai",
+    "review"
+  ],
+  "interface": {
+    "displayName": "Weekly Ai And Me Reflection",
+    "shortDescription": "回顾人与 AI 的协作记录，输出每周模式、双向反馈与改进建议。",
+    "longDescription": "按周或按需回顾人与 AI 的协作记录，用真实纠错、返工、采纳作为证据，输出模式观察、双向反馈、改进建议与静态 dashboard。",
+    "developerName": "Raymond",
+    "category": "Productivity",
+    "capabilities": [
+      "Skills"
+    ],
+    "defaultPrompt": [
+      "使用 Weekly Ai And Me Reflection skill 帮我处理一个相关任务。"
+    ]
+  }
+}

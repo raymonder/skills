@@ -1,7 +1,0 @@
-interface:
-  display_name: "NGO Client Brief"
-  short_description: "生成 NGO 首次拜访会前简报"
-  default_prompt: "Use $ngo-client-brief to prepare a first-meeting brief for an NGO client."
-
-policy:
-  allow_implicit_invocation: true

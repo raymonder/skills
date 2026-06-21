@@ -9,21 +9,6 @@
   },
   "plugins": [
     {
-      "name": "raymonder-skills",
-      "source": "./raymonder-skills",
-      "description": "Raymond 的全部个人 skill 打成一个插件（含 8 个 skill），用于 Cowork 中一次安装后直接使用全部下属 skills。",
-      "category": "productivity",
-      "keywords": [
-        "raymonder",
-        "skills",
-        "feishu",
-        "tender",
-        "ngo",
-        "fundraising",
-        "productivity"
-      ]
-    },
-    {
       "name": "tender-proposal-writing",
       "source": "./plugins/tender-proposal-writing",
       "description": "投标 / RFP / RFQ 方案撰写方法论：腔调、逐条回标、各分章写作要求。",
@@ -75,13 +60,17 @@
     {
       "name": "feishu-setup",
       "source": "./plugins/feishu-setup",
-      "description": "接入飞书 / Lark：安装配置 lark-cli、设置凭证、完成 OAuth 登录与鉴权排错。",
+      "description": "接入飞书 / Lark：沙盒中优先用 Control My Mac / computer-use 检查宿主 Mac 的 lark-cli，再安装配置、OAuth 登录与鉴权排错。",
       "category": "integration",
       "keywords": [
         "feishu",
         "lark",
         "setup",
-        "oauth"
+        "oauth",
+        "control-my-mac",
+        "computer-use",
+        "sandbox",
+        "cowork"
       ]
     },
     {

@@ -1,0 +1,29 @@
+{
+  "name": "feishu-editable-diagrams",
+  "version": "1.0.0",
+  "description": "在飞书 / Lark 文档或白板中创建、转换、插入、更新可编辑的 SVG 图（流程图 / 架构图 / 关系图），让方框、文字、箭头保持可编辑而非静态图片。",
+  "skills": "./skills/",
+  "author": {
+    "name": "Raymond"
+  },
+  "keywords": [
+    "feishu",
+    "lark",
+    "diagram",
+    "svg",
+    "whiteboard"
+  ],
+  "interface": {
+    "displayName": "Feishu Editable Diagrams",
+    "shortDescription": "在飞书 / Lark 文档或白板插入、更新可编辑的流程图 / 架构图 / 关系图（SVG → 白板）。",
+    "longDescription": "在飞书 / Lark 文档或白板中创建、转换、插入、更新可编辑的 SVG 图（流程图 / 架构图 / 关系图），让方框、文字、箭头保持可编辑而非静态图片。",
+    "developerName": "Raymond",
+    "category": "Integration",
+    "capabilities": [
+      "Skills"
+    ],
+    "defaultPrompt": [
+      "使用 Feishu Editable Diagrams skill 帮我处理一个相关任务。"
+    ]
+  }
+}

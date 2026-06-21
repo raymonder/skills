@@ -1,8 +1,12 @@
 # feishu-setup
 
-版本：0.9
+版本：1.0.2
 
 这个 skill 用来帮 AI 助手或智能体接入飞书 / Lark。它只负责一件事：把 `lark-cli` 安装好、配置好、登录好，并确认 user / bot 身份都能正常使用。后续真正读写文档、Wiki、表格、Base、IM、日历或邮件时，再交给对应的 `lark-*` skill。
+
+## 沙盒 / Cowork 使用原则
+
+如果是在 Cowork、Claude Code、Codex desktop 或任何可能隔离宿主机配置的沙盒里，第一步必须先用 Control My Mac / computer-use 到宿主 Mac 终端检查 `lark-cli auth status`，不要先开 Browser 或要求用户重新 OAuth。只有宿主机检查失败、工具不可用，或确实需要改飞书开放平台权限时，才使用浏览器。
 
 ## 能做什么
 

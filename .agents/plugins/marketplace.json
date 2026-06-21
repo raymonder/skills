@@ -1,0 +1,104 @@
+{
+  "name": "raymonder-skills",
+  "interface": {
+    "displayName": "Raymonder Skills"
+  },
+  "plugins": [
+    {
+      "name": "tender-proposal-writing",
+      "source": {
+        "source": "local",
+        "path": "./plugins/tender-proposal-writing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Writing"
+    },
+    {
+      "name": "scenario-product-spec",
+      "source": {
+        "source": "local",
+        "path": "./plugins/scenario-product-spec"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Writing"
+    },
+    {
+      "name": "ngo-client-brief",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ngo-client-brief"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "hk-fundraising-campaign-advisor",
+      "source": {
+        "source": "local",
+        "path": "./plugins/hk-fundraising-campaign-advisor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Fundraising"
+    },
+    {
+      "name": "feishu-setup",
+      "source": {
+        "source": "local",
+        "path": "./plugins/feishu-setup"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integration"
+    },
+    {
+      "name": "feishu-editable-diagrams",
+      "source": {
+        "source": "local",
+        "path": "./plugins/feishu-editable-diagrams"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integration"
+    },
+    {
+      "name": "transcript-to-corrected-minutes",
+      "source": {
+        "source": "local",
+        "path": "./plugins/transcript-to-corrected-minutes"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Writing"
+    },
+    {
+      "name": "weekly-ai-and-me-reflection",
+      "source": {
+        "source": "local",
+        "path": "./plugins/weekly-ai-and-me-reflection"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

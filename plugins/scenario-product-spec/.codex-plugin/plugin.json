@@ -1,0 +1,28 @@
+{
+  "name": "scenario-product-spec",
+  "version": "1.0.0",
+  "description": "把干巴巴的功能需求改写成「谁在什么场景下、满足什么条件、系统如何响应、为何这样设计」的场景化业务叙事，适用于产品 / 技术方案、PRD、RFP 回复。",
+  "skills": "./skills/",
+  "author": {
+    "name": "Raymond"
+  },
+  "keywords": [
+    "product",
+    "spec",
+    "prd",
+    "scenario"
+  ],
+  "interface": {
+    "displayName": "Scenario Product Spec",
+    "shortDescription": "把干巴巴的功能需求改写成场景化业务叙事（产品 / 技术方案、PRD、RFP 回复）。",
+    "longDescription": "把干巴巴的功能需求改写成「谁在什么场景下、满足什么条件、系统如何响应、为何这样设计」的场景化业务叙事，适用于产品 / 技术方案、PRD、RFP 回复。",
+    "developerName": "Raymond",
+    "category": "Writing",
+    "capabilities": [
+      "Skills"
+    ],
+    "defaultPrompt": [
+      "使用 Scenario Product Spec skill 帮我处理一个相关任务。"
+    ]
+  }
+}

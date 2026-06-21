@@ -1,7 +1,7 @@
 {
   "name": "feishu-setup",
-  "version": "1.0.1",
-  "description": "为 agent 接入飞书 / Lark：安装配置 lark-cli、设置 App 凭证与 scope、完成 OAuth 设备流登录、验证用户 / bot 鉴权并排错。",
+  "version": "1.0.2",
+  "description": "为 agent 接入飞书 / Lark：在 Cowork/Claude Code/Codex 沙盒中优先用 Control My Mac / computer-use 检查宿主 Mac 的 lark-cli，再安装配置、OAuth 设备流登录、验证 user/bot 鉴权并排错。",
   "author": {
     "name": "Raymond"
   }

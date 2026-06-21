@@ -1,0 +1,32 @@
+{
+  "name": "feishu-setup",
+  "version": "1.0.2",
+  "description": "为 agent 接入飞书 / Lark：在 Cowork/Claude Code/Codex 沙盒中优先用 Control My Mac / computer-use 检查宿主 Mac 的 lark-cli，再安装配置、OAuth 设备流登录、验证 user/bot 鉴权并排错。",
+  "skills": "./skills/",
+  "author": {
+    "name": "Raymond"
+  },
+  "keywords": [
+    "feishu",
+    "lark",
+    "setup",
+    "oauth",
+    "control-my-mac",
+    "computer-use",
+    "sandbox",
+    "cowork"
+  ],
+  "interface": {
+    "displayName": "Feishu Setup",
+    "shortDescription": "接入飞书 / Lark：沙盒中优先用 Control My Mac / computer-use 检查宿主 Mac 的 lark-cli，再安装配置、OAuth 登录与鉴权排错。",
+    "longDescription": "为 agent 接入飞书 / Lark：在 Cowork/Claude Code/Codex 沙盒中优先用 Control My Mac / computer-use 检查宿主 Mac 的 lark-cli，再安装配置、OAuth 设备流登录、验证 user/bot 鉴权并排错。",
+    "developerName": "Raymond",
+    "category": "Integration",
+    "capabilities": [
+      "Skills"
+    ],
+    "defaultPrompt": [
+      "使用 Feishu Setup skill 帮我处理一个相关任务。"
+    ]
+  }
+}

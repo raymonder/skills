@@ -1,8 +1,0 @@
-{
-  "name": "raymonder-skills",
-  "version": "1.0.1",
-  "description": "Raymond 的个人 skill 集合：tender-proposal-writing（投标方案方法论）、scenario-product-spec（场景化产品方案）、ngo-client-brief（NGO 会前简报）、hk-fundraising-campaign-advisor（香港筹款）、feishu-editable-diagrams（飞书可编辑图表）、feishu-setup（飞书接入）、transcript-to-corrected-minutes（会议纪要）、weekly-ai-and-me-reflection（每周复盘）。",
-  "author": {
-    "name": "Raymond"
-  }
-}

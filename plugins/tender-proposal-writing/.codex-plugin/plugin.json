@@ -1,0 +1,29 @@
+{
+  "name": "tender-proposal-writing",
+  "version": "1.0.0",
+  "description": "投标 / RFP / RFQ 方案撰写方法论：贯穿全文的腔调与红线、逐条回标需求、口径与数字底座一致性，以及技术 / 商务 / 产品 / 关于我们 / 报价各分章的写作要求。",
+  "skills": "./skills/",
+  "author": {
+    "name": "Raymond"
+  },
+  "keywords": [
+    "tender",
+    "rfp",
+    "rfq",
+    "proposal",
+    "bid"
+  ],
+  "interface": {
+    "displayName": "Tender Proposal Writing",
+    "shortDescription": "投标 / RFP / RFQ 方案撰写方法论：腔调、逐条回标、各分章写作要求。",
+    "longDescription": "投标 / RFP / RFQ 方案撰写方法论：贯穿全文的腔调与红线、逐条回标需求、口径与数字底座一致性，以及技术 / 商务 / 产品 / 关于我们 / 报价各分章的写作要求。",
+    "developerName": "Raymond",
+    "category": "Writing",
+    "capabilities": [
+      "Skills"
+    ],
+    "defaultPrompt": [
+      "使用 Tender Proposal Writing skill 帮我处理一个相关任务。"
+    ]
+  }
+}

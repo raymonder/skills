@@ -1,6 +1,5 @@
 ---
 name: hk-fundraising-campaign-advisor
-version: "0.9"
 description: Use when designing, reviewing, scoring, or improving Hong Kong in-line public fundraising (online donation, monthly giving / 月捐, and Flag Day / e-Flag Day / 卖旗) for schools, NGOs, charities, foundations and institutions. Covers seed-network campaign mechanics, copy and image patterns, donor reactivation, recurring giving, propagation loops, and evidence-backed campaign plans with Hong Kong and international research citations.
 ---
 
