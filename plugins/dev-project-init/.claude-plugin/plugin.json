@@ -1,0 +1,8 @@
+{
+  "name": "dev-project-init",
+  "version": "1.0.0",
+  "description": "初始化或更新研发项目级 AI Coding Agent 规则，把精简研发工作流规则写入 AGENTS.md、cursor.md、CLAUDE.md、Cloud.md 等项目约定文件。",
+  "author": {
+    "name": "Raymond"
+  }
+}

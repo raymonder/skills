@@ -1,0 +1,30 @@
+{
+  "name": "dev-project-init",
+  "version": "1.0.0",
+  "description": "初始化或更新研发项目级 AI Coding Agent 规则，把精简研发工作流规则写入 AGENTS.md、cursor.md、CLAUDE.md、Cloud.md 等项目约定文件。",
+  "skills": "./skills/",
+  "author": {
+    "name": "Raymond"
+  },
+  "keywords": [
+    "development",
+    "project",
+    "rules",
+    "agents",
+    "codex",
+    "claude"
+  ],
+  "interface": {
+    "displayName": "Dev Project Init",
+    "shortDescription": "把 AI coding 核心规则写入研发项目约定。",
+    "longDescription": "初始化或更新研发项目级 AI Coding Agent 规则，把精简研发工作流规则写入 AGENTS.md、cursor.md、CLAUDE.md、Cloud.md 等项目约定文件。",
+    "developerName": "Raymond",
+    "category": "Productivity",
+    "capabilities": [
+      "Skills"
+    ],
+    "defaultPrompt": [
+      "使用 Dev Project Init skill 帮我处理一个相关任务。"
+    ]
+  }
+}

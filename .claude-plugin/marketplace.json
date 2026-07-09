@@ -109,6 +109,20 @@
         "ai",
         "review"
       ]
+    },
+    {
+      "name": "dev-project-init",
+      "source": "./plugins/dev-project-init",
+      "description": "初始化或更新研发项目级 AI Coding Agent 规则，写入 AGENTS.md、cursor.md、CLAUDE.md、Cloud.md 等项目约定文件。",
+      "category": "productivity",
+      "keywords": [
+        "development",
+        "project",
+        "rules",
+        "agents",
+        "codex",
+        "claude"
+      ]
     }
   ]
 }

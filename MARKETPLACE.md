@@ -37,11 +37,12 @@ plugins/<skill名>/
 | `feishu-editable-diagrams` | 飞书可编辑 SVG 图表 |
 | `transcript-to-corrected-minutes` | 转写稿→校正纪要 |
 | `weekly-ai-and-me-reflection` | 每周 AI 协作复盘 |
+| `dev-project-init` | 初始化 / 更新研发项目 AI Coding Agent 规则 |
 
 ## 更新
 
 改完某个 skill → push 本仓库 → 在 Claude 里 `/plugin update <插件名>@raymonder-skills`，或在市场上开「自动同步 / Enable auto-update」，开新会话即生效。
-由于 `plugin.json` 未写 `version`，每次 commit 都被视为新版本，加 / 改 skill 不用手动改版本号。
+已写 `version` 的插件按 `plugin.json` 版本号识别；未写 `version` 的插件则每次 commit 都被视为新版本。
 
 ## 新增一个 skill
 
@@ -55,4 +56,4 @@ plugins/<新skill名>/
 
 ## 给 Codex 用
 
-Codex 不认 marketplace，但认同一套 `SKILL.md`。本机已把 8 个 skill 软链进 `~/.codex/skills/`，指向本仓库 `plugins/<skill>/skills/<skill>`，`git pull` 后 Codex 即用最新版。
+Codex 不认 marketplace，但认同一套 `SKILL.md`。本机已把 9 个 skill 软链进 `~/.codex/skills/`，指向本仓库 `plugins/<skill>/skills/<skill>`，`git pull` 后 Codex 即用最新版。
