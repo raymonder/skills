@@ -1,0 +1,29 @@
+{
+  "name": "check-hong-kong-traditional-chinese",
+  "version": "1.0.0",
+  "description": "檢查項目及文件中的簡體殘留、香港慣用字形、產品術語及繁體中文一致性。",
+  "skills": "./skills/",
+  "author": {
+    "name": "Raymond"
+  },
+  "keywords": [
+    "hong-kong",
+    "traditional-chinese",
+    "localization",
+    "proofreading",
+    "writing"
+  ],
+  "interface": {
+    "displayName": "香港繁體用字檢查",
+    "shortDescription": "檢查香港繁體字形、術語及一致性。",
+    "longDescription": "檢查項目、文件、產品介面、圖表及圖片中的簡體殘留、香港慣用字形、產品術語及繁體中文一致性。",
+    "developerName": "Raymond",
+    "category": "Writing",
+    "capabilities": [
+      "Skills"
+    ],
+    "defaultPrompt": [
+      "使用香港繁體用字檢查 skill 審校這個項目。"
+    ]
+  }
+}
