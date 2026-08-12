@@ -123,6 +123,19 @@
         "codex",
         "claude"
       ]
+    },
+    {
+      "name": "check-hong-kong-traditional-chinese",
+      "source": "./plugins/check-hong-kong-traditional-chinese",
+      "description": "检查项目、文件、产品界面、图表及图片中的简体残留、香港惯用字形、产品术语及繁体中文一致性。",
+      "category": "writing",
+      "keywords": [
+        "hong-kong",
+        "traditional-chinese",
+        "localization",
+        "proofreading",
+        "writing"
+      ]
     }
   ]
 }

@@ -38,6 +38,7 @@ plugins/<skill名>/
 | `transcript-to-corrected-minutes` | 转写稿→校正纪要 |
 | `weekly-ai-and-me-reflection` | 每周 AI 协作复盘 |
 | `dev-project-init` | 初始化 / 更新研发项目 AI Coding Agent 规则 |
+| `check-hong-kong-traditional-chinese` | 检查香港繁体字形、产品术语及项目用词一致性 |
 
 ## 更新
 
@@ -56,4 +57,4 @@ plugins/<新skill名>/
 
 ## 给 Codex 用
 
-Codex 不认 marketplace，但认同一套 `SKILL.md`。本机已把 9 个 skill 软链进 `~/.codex/skills/`，指向本仓库 `plugins/<skill>/skills/<skill>`，`git pull` 后 Codex 即用最新版。
+Codex 不认 marketplace，但认同一套 `SKILL.md`。本机可把需要的 skill 软链进 `~/.codex/skills/`，指向本仓库 `plugins/<skill>/skills/<skill>`，`git pull` 后 Codex 即用最新版。

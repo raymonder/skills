@@ -1,0 +1,4 @@
+interface:
+  display_name: "香港繁體用字檢查"
+  short_description: "檢查簡體殘留、香港慣用字形、產品術語及項目用詞一致性"
+  default_prompt: "使用 $check-hong-kong-traditional-chinese 檢查這個項目的香港繁體用字，先列出問題並按授權範圍修正。"

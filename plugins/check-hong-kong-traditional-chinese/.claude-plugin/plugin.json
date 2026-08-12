@@ -1,0 +1,8 @@
+{
+  "name": "check-hong-kong-traditional-chinese",
+  "version": "1.0.0",
+  "description": "檢查項目及文件中的簡體殘留、香港慣用字形、產品術語及繁體中文一致性。",
+  "author": {
+    "name": "Raymond"
+  }
+}
